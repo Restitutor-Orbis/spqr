@@ -1,0 +1,254 @@
+* {
+	list-style: none;
+}
+
+@font-face {
+  font-family:"jetBrains";
+  src: url("../Fonts/JetBrainsMono-Regular.ttf");
+}
+
+@font-face {
+  font-family:"PisanNormal";
+  src: url("../Fonts/PisanNormal-rxep.ttf");
+}
+
+@font-face {
+  font-family:"romanFont";
+  src: url("../Fonts/Constantine.ttf");
+}
+
+@font-face {
+  font-family:"London";
+  src: url("../Fonts/London.ttf");
+}
+
+#baggrund {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	overflow: hidden; 
+	/* background-image: linear-gradient(90deg, rgb(163, 238, 255), rgb(238, 163, 255)); */
+	/* background-color: rgb(52, 60, 68); */
+	background-image: url("../Billeder/roman_flag2.jpg");
+	
+	background-size: 100%;
+	background-position: center;
+	cursor: url("../Billeder/roman_cursor.png"), auto;
+}
+
+#hovedboks {
+	width: 50%;
+	height: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 110px;
+	background-color: rgb(255,255,255,0.86);
+	position: relative;
+	z-index: 3;
+	border-radius: 5px;
+}
+
+#calenderboks {
+	width: 100%;
+	height: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 0px;
+	color: rgb(255,255,255,0.7);
+}
+
+#calenderImage {
+	width: 200px;
+	height: 260px;
+	background-image: url("./Billeder/Seasons/season_1.jpg");
+	background-size: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	border: solid 1px rgb(127, 9, 3);
+
+}
+
+#calenderText {
+	width: 300px;
+	height: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+}
+
+#dayAndMonth {
+	font-family: London;
+	margin-left: 10px;
+	margin-top: 18px;
+	font-size: 15px;
+	text-align:center;
+	color: black;
+	line-height: 18px;
+	font-style: italic;
+}
+
+#honorOfTheDay {
+	font-family: London;
+	margin-left: 10px;
+	font-size: 15px;
+	text-align:center;
+	color: black;
+	margin-top: -17px;
+	font-style: italic;
+}
+
+#clockBox {
+	height: 40px;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: 15px;
+	color: black;
+}
+
+#clock {
+	text-align: center;
+	font-family: London;
+	font-size: 22px;
+}
+
+#clockDisplay {
+}
+
+
+#titleBoks {
+	width: 600px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -70px;
+	margin-bottom: 2px;
+	color: black;
+}
+
+#titleBoks p {
+	text-align: center;
+	font-family: romanFont;
+	font-size: 34px;
+	color: rgb(0,0,0,0.9);
+}
+
+#linkboks {
+	width: 100%;
+	height: 225px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -25px;
+}
+
+#sublinkboks {
+	width: 560px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -25px;
+}
+
+.linkboks_left {
+	width: 120px;
+	height: 190px;
+	margin: 10px;
+	float: left;
+	font-family: romanFont;
+	margin-top: 50px;
+}
+
+.linkboks_right {
+	width: 120px;
+	height: 190px;
+	margin: 10px;
+	float:right;
+	font-family: romanFont;
+	margin-top: 50px;
+}
+
+.linkboks_left .os1 {
+	font-size: 17px;
+	text-align: left;
+	color: rgb(127, 9, 3);
+	margin-left: 0px;
+	margin-top: 15px;
+	font-weight: 600;
+}
+
+.linkboks_right .os1 {
+	font-size: 17px;
+	text-align: right;
+	color: rgb(127, 9, 3);
+	margin-left: 0px;
+	margin-top: 15px;
+	font-weight: 600;
+}
+
+.linklisteTekst {
+	color: rgb(0,0,0);
+	font-size: 14px;
+	margin-top: 10px;
+	float: left;
+}
+
+#liste_right {
+	text-align: right;
+}
+
+#liste p {
+	text-align: left;
+}
+
+#liste a {
+	color: black;
+	text-decoration: none;
+}
+
+#liste_right a {
+	color: black;
+	text-decoration: none;
+}
+
+#liste a:hover {
+	color: rgb(211, 164, 92);
+}
+
+#liste_right a:hover {
+	color: rgb(211, 164, 92);
+}
+
+#statue_left {
+	height: 700px;
+	width: 350px;
+	bottom: 0px;
+	float:left;
+	margin-top: 320px;
+	background-image: url("../Billeder/julius_statue.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#statue_right {
+	height: 700px;
+	width: 350px;
+	bottom: 0px;
+	float: right;
+	margin-top: 450px;
+	background-image: url("../Billeder/augustus_statue.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#sidebarText {
+	width: 100%;
+	font-size: 25px;
+	color: rgb(205,133,63);
+	text-align: center;
+}
